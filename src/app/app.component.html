@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <app-game-control (stoppedCount)="stoppedCountM($event)" ></app-game-control>
+    </div>
+    <div>
+        <app-even *ngIf="IsEven()" [numberToShow]="finalNumberM"></app-even>
+        <app-odd *ngIf="IsOdd()" [numberToShow]="finalNumberM"></app-odd>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
